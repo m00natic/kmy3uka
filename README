@@ -2,7 +2,7 @@ kmy3uka is a little Qt program that takes a top directory full of
 artists' directories with each artist directory containing directories
 of albums and "pretty-print"s information to a chosen text file
 (appending).  Additional file extensions.ini may specify what file
-extension would count for music files.  A resulting file may be found
+extensions would count for music files.  A resulting file may be found
 at http://m00natic.hit.bg/my3uka.txt
 It may be useful for systematizing large music collections with
 directory hierarchy as specified above.
