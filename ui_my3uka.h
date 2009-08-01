@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'my3uka.ui'
 **
-** Created: Thu Jun 25 13:17:45 2009
+** Created: Fri Jun 26 13:11:18 2009
 **      by: Qt User Interface Compiler version 4.5.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!

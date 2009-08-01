@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icon" >
+        <file>my3uka.png</file>
+    </qresource>
+</RCC>
