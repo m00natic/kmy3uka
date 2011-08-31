@@ -1,10 +1,10 @@
 /********************************************************************************
-** Form generated from reading ui file 'my3uka.ui'
+** Form generated from reading UI file 'my3uka.ui'
 **
-** Created: Fri Jun 26 13:11:18 2009
-**      by: Qt User Interface Compiler version 4.5.1
+** Created: Thu Sep 1 01:17:55 2011
+**      by: Qt User Interface Compiler version 4.7.2
 **
-** WARNING! All changes made in this file will be lost when recompiling ui file!
+** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
 #ifndef UI_MY3UKA_H
@@ -54,7 +54,7 @@ public:
         sizePolicy.setHeightForWidth(my3ukaClass->sizePolicy().hasHeightForWidth());
         my3ukaClass->setSizePolicy(sizePolicy);
         QIcon icon;
-        icon.addPixmap(QPixmap(QString::fromUtf8(":/icon/my3uka.png")), QIcon::Normal, QIcon::Off);
+        icon.addFile(QString::fromUtf8(":/icon/my3uka.png"), QSize(), QIcon::Normal, QIcon::Off);
         my3ukaClass->setWindowIcon(icon);
         my3ukaClass->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         my3ukaClass->setSizeGripEnabled(false);
@@ -63,7 +63,7 @@ public:
         layoutWidget->setGeometry(QRect(5, 13, 420, 98));
         gridLayout = new QGridLayout(layoutWidget);
         gridLayout->setSpacing(6);
-        gridLayout->setMargin(11);
+        gridLayout->setContentsMargins(11, 11, 11, 11);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
         lblFolder = new QLabel(layoutWidget);
@@ -137,7 +137,6 @@ public:
         btnBrowseFile->setText(QApplication::translate("my3ukaClass", "Find File", 0, QApplication::UnicodeUTF8));
         btnGenerate->setText(QApplication::translate("my3ukaClass", "Generate", 0, QApplication::UnicodeUTF8));
         btnGenerateAll->setText(QApplication::translate("my3ukaClass", "Generate All", 0, QApplication::UnicodeUTF8));
-        Q_UNUSED(my3ukaClass);
     } // retranslateUi
 
 };
